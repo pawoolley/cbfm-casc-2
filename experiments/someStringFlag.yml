@@ -1,0 +1,7 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: someStringFlag
+availableValues:
+  - '1'
+value: '1'
