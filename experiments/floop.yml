@@ -1,7 +1,5 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-labels:
-  - archived
 enabled: false
 flag: floop
 value: false
