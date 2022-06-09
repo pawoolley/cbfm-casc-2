@@ -1,5 +1,13 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-enabled: false
+labels:
+  - banana
 flag: floop
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - person@company.com
+    value: true
 value: false
