@@ -3,4 +3,13 @@ type: experiment
 labels:
   - banana
 flag: floop
-value: true
+conditions:
+  - group:
+      name:
+        - QA
+        - Beta Users
+    version:
+      operator: semver-gte
+      semver: 3.0.1
+    value: true
+value: false
