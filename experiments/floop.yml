@@ -3,16 +3,17 @@ type: experiment
 labels:
   - banana
 flag: floop
-value:
-  - from: 2022-06-10T10:05:02.284Z
-    percentage: 0
-    option: true
-  - from: 2022-06-11T11:00:00.000Z
-    percentage: 33
-    option: true
-  - from: 2022-06-12T11:00:00.000Z
-    percentage: 66
-    option: true
-  - from: 2022-06-13T11:00:00.000Z
-    percentage: 100
-    option: true
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - me@company.com
+    value: true
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - you@compnay.com
+    value: true
+value: false
