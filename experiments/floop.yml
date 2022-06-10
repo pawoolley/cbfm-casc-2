@@ -10,10 +10,4 @@ conditions:
       operand:
         - me@company.com
     value: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - you@compnay.com
-    value: true
 value: false
