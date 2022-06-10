@@ -6,6 +6,10 @@ flag: floop
 conditions:
   - version:
       operator: semver-eq
+      semver: '2'
+    value: false
+  - version:
+      operator: semver-eq
       semver: '1'
     property:
       name: email
