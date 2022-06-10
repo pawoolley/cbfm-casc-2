@@ -10,7 +10,4 @@ conditions:
       operand:
         - me@company.com
     value: true
-  - group:
-      name: target 01
-    value: true
 value: false
