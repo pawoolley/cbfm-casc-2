@@ -4,7 +4,10 @@ labels:
   - banana
 flag: floop
 conditions:
-  - property:
+  - version:
+      operator: semver-eq
+      semver: '1'
+    property:
       name: email
       operator: in-array
       operand:
