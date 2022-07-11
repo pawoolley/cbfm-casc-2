@@ -1,6 +1,6 @@
 type: target-group
 name: target 01
-description: test group 111
+description: test group 11111
 conditions:
   - operator: semver-eq
     property: rox.app_release
