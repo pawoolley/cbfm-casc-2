@@ -1,7 +1,0 @@
-# This file was edited by Cloudbees Feature Management
-type: experiment
-description: a different description
-labels:
-  - bar
-flag: flagXYZ
-value: true

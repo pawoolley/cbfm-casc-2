@@ -1,8 +1,0 @@
-# This file was edited by CloudBees Feature Management
-type: experiment
-flag: my first flag
-availableValues:
-  - blue
-  - green
-  - red
-value: green
